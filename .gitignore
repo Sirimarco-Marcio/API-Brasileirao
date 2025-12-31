@@ -1,2 +1,16 @@
-/node_modules/
+# Environment and secrets
 .env
+
+# Local data and quotas
+futebol_data.db
+data_acquisition/.request_quota.json
+
+# Virtual env / caches
+.venv
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# OS/editor noise
+.DS_Store
+*.log
